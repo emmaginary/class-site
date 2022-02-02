@@ -1,3 +1,19 @@
 body {
-  background-color: coral;
+  background-color: olive;
+}
+
+p {
+  color: pink;
+}
+
+h1{
+  color:pink;
+}
+
+h2{
+color:pink;  
+}
+
+img {
+  max-width:50%
 }
