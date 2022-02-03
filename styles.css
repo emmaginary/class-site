@@ -8,12 +8,17 @@ p {
 
 h1{
   color:pink;
+  text-align: center;
 }
 
 h2{
-color:pink;  
+color:pink;
 }
 
 img {
   max-width:50%
+}
+
+p{
+  text-align: center;
 }
