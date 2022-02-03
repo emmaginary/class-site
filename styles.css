@@ -4,21 +4,22 @@ body {
 
 p {
   color: pink;
+  text-align: center;
+  font-family:"Lucida Console", monospace;
 }
 
 h1{
   color:pink;
   text-align: center;
+  font-family:"Lucida Console", monospace;
 }
 
 h2{
-color:pink;
+  color:pink;
+  text-align: center;
+  font-family:"Lucida Console", monospace;
 }
 
 img {
-  max-width:50%
-}
-
-p{
-  text-align: center;
+  max-width:100%
 }
