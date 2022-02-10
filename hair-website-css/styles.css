@@ -1,0 +1,73 @@
+img {
+  max-width: 50%;
+  padding-left: 350px;
+}
+
+body{
+  background-color: black;
+}
+
+blockquote{
+  color: hotpink;
+  text-align: center;
+  font-family:"Lucida Console", monospace;
+}
+
+h1{
+  color: hotpink;
+  text-align: center;
+  font-family:"Lucida Handwriting", cursive;
+}
+
+h2{
+  color: hotpink;
+  text-align: center;
+  font-family:"Lucida Handwriting", cursive;
+}
+
+h3{
+  color: hotpink;
+  text-align: center;
+  font-family:"Lucida Console", monospace;
+}
+
+p{
+  color: hotpink;
+  text-align: left;
+  font-family:"Lucida Console", monospace;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: black;
+}
+
+.right {
+  right: 0;
+  background-color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  max-width: 35%;
+  top: 50%;
+  left: 1%;
+  transform: translate(-50%, -1%);
+}
