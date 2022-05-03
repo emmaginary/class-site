@@ -1,0 +1,16 @@
+*{
+box-sizing:border-box;
+}
+
+body{
+font-family: 'Satisfy', cursive;
+}
+
+p{
+  background-color: hotpink;
+  padding:30px;
+  border:10px solid lightgreen;
+  margin:30px;
+  max-width:300px;
+  height:400px;
+}

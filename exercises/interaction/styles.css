@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 25px;
+  font-family: monospace;
+}
+
+img {
+  max-width:300px;
+}
+
+.object {
+  background-color: rgb(227, 53, 121);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition:
+    background-color .5s,
+    transform .5s,
+    border-radius .5s;
+  cursor: pointer;
+}
+
+.object:hover {
+  background-color: rgb(47, 157, 236);
+  transform: scale(2);
+  border-radius: 0%;
+}
+
+.special {
+  color: rgb(233, 147, 57);
+}
+
+.special:hover {
+  color: rgb(133, 40, 198);
+  cursor: crosshair;
+}
+
+.hidden {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+
+ .special:hover + .hidden {
+   opacity: 1;
+ }
+
+ .interesting li:nth-of-type(3){
+   color:rgb(150, 226, 98);
+ }
